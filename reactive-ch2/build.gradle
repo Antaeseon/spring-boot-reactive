@@ -6,7 +6,7 @@ plugins {
 
 group = 'com.ts'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '11'
+sourceCompatibility = '1.8'
 
 configurations {
 	compileOnly {
@@ -24,7 +24,7 @@ dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-data-mongodb-reactive'
 	compileOnly 'org.projectlombok:lombok'
 
-	implementation 'de.flapdoodle.embed:de.flapdoodle.embed.mongo'
+	implementation 'de.flapdoodle.embed:de.flapdoodle.embed.mongo:3.3.1-SNAPSHOT'
 	implementation 'org.mongodb:mongodb-driver-sync'
 
 	annotationProcessor 'org.projectlombok:lombok'
